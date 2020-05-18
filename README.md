@@ -7,8 +7,8 @@
 </div>
 
 <div class="row">
+       <img src="https://user-images.githubusercontent.com/43094705/82170497-4243ec80-98e2-11ea-8a6d-d4072b3c27ea.jpeg" width="250" title="Search History">
       <img src="https://user-images.githubusercontent.com/43094705/82170686-cb5b2380-98e2-11ea-967f-e843bd322867.jpeg" width="250" title="Search History">
-      <img src="https://user-images.githubusercontent.com/43094705/82170497-4243ec80-98e2-11ea-8a6d-d4072b3c27ea.jpeg" width="250" title="Search History">
       <img src="https://user-images.githubusercontent.com/43094705/82170549-6acbe680-98e2-11ea-8859-11d24d9198f9.jpeg" width="250" title="Saved Playlists">
 </div>
 

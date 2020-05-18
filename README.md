@@ -1,5 +1,21 @@
 # DOIT APP 
 
+
+
+<p align="center">
+  <img 
+       width="700"
+       height="500"
+   src="https://user-images.githubusercontent.com/43094705/82186089-ef7d2b80-9907-11ea-81df-fe33d883dc0b.png">
+</p>
+
+
+## Objective Of App
+This is a Time Management App with some Handy Futures like Note Section, TODO List, Profile witch consiste Graph and Analatics And Beautiful UI/UX used Technology JAVA, Android,Sqllite,Firebase. UI/Ux Is also devloped By me.
+
+
+## Android APP Screenshot
+
 <div class="row">
       <img src="https://user-images.githubusercontent.com/43094705/82170371-d95c7480-98e1-11ea-9108-96a7e74824b8.jpeg" width="250" title="Song Images">
       <img src="https://user-images.githubusercontent.com/43094705/82170420-ff821480-98e1-11ea-8dbe-83aeda64a4ff.jpeg" width="250" title="Responsive Notification">     
@@ -17,9 +33,6 @@
      
 </div>
 
-
-## Objective Of App
-This is a Time Management App with some Handy Futures like Note Section, TODO List, Profile witch consiste Graph and Analatics And Beautiful UI/UX used Technology JAVA, Android,Sqllite,Firebase. UI/Ux Is also devloped By me.
 
 
 ## Next Version of Devlopment Cover These Features 

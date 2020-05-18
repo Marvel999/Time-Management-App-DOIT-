@@ -1,4 +1,4 @@
-# DOIT 
+# DOIT APP 
 
 <div class="row">
       <img src="https://user-images.githubusercontent.com/43094705/82170371-d95c7480-98e1-11ea-9108-96a7e74824b8.jpeg" width="250" title="Song Images">

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_app">
+
+    <FrameLayout
+        android:id="@+id/fragmentContener"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/top_navigation_constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+        android:id="@+id/top_navigation_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_shape_bottam_namvigation"
+        android:elevation="4dp"
+        android:outlineSpotShadowColor="@color/darkYellow"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/lite_blue"
+            app:bt_colorInactive="@color/default_inactive_color"
+            app:bt_icon="@drawable/list"
+            app:bt_shape="@drawable/round_shape"
+            app:bt_title="@string/list"
+             />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/lite_blue"
+            app:bt_colorInactive="@color/default_inactive_color"
+            app:bt_icon="@drawable/notes"
+            app:bt_shape="@drawable/round_shape"
+            app:bt_title="@string/notes" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/profile"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_badgeBackgroundColor="@color/darkYellow"
+            app:bt_colorActive="@color/lite_blue"
+            app:bt_colorInactive="@color/default_inactive_color"
+            app:bt_icon="@drawable/profile"
+            app:bt_shape="@drawable/round_shape"
+            app:bt_title="@string/profile" />
+
+    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

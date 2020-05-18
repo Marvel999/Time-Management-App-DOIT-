@@ -28,11 +28,6 @@ This is a Time Management App with some Handy Futures like Note Section, TODO Li
       <img src="https://user-images.githubusercontent.com/43094705/82170549-6acbe680-98e2-11ea-8859-11d24d9198f9.jpeg" width="250" title="Saved Playlists">
 </div>
 
-<div class="row">
-      <img src="https://user-images.githubusercontent.com/43094705/82170593-8800b500-98e2-11ea-92e1-5901a755a3fe.jpeg" width="250" title="Search Results">
-     
-</div>
-
 
 
 ## Next Version of Devlopment Cover These Features 

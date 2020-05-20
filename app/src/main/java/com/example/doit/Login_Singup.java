@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 
+import com.example.doit.ui.LoginFragment;
 import com.example.doit.ui.SignupFragment;
 
 public class Login_Singup extends AppCompatActivity {
@@ -15,7 +16,7 @@ public class Login_Singup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login__singup);
 
-        Fragment fragment=new SignupFragment();
+        Fragment fragment=new LoginFragment();
         FragmentTransaction ft= getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContenersignup,fragment);
         ft.commit();

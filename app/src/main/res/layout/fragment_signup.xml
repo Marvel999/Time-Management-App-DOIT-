@@ -7,15 +7,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.SignupFragment">
 
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/sofiaproregular"
+        android:text="Sign Up"
+        android:textColor="@color/dark_color"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
     <TextView
         android:id="@+id/progresstitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/sofiaproregular"
         android:text="Sign up"
         android:textColor="@color/dark_color"
         android:textSize="30dp"
+
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +43,7 @@
         android:id="@+id/circleImageView2"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:src="@drawable/profile_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,14 +55,19 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="30dp"
-
-        app:boxStrokeColor="@color/dark_color"
-        app:counterMaxLength="20"
-        app:errorEnabled="true"
+        android:layout_marginEnd="40dp"
         android:textColorHint="@color/dark_color"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeColor="@color/dark_color"
+        app:counterMaxLength="8"
+        app:counterEnabled="true"
+        app:errorEnabled="true"
+        app:layout_constraintCircleRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,12 +76,13 @@
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="Username"
-            android:textColor="@color/dark_color"
+            android:fontFamily="@font/sofiaproregular"
+
             android:paddingStart="20dp"
-            android:textColorHint="@color/dark_color"
-             />
+            android:textColor="@color/dark_color"
+            android:textColorHint="@color/dark_color" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,13 +92,18 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
         android:textColorHint="@color/dark_color"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
         app:boxStrokeColor="@color/dark_color"
         app:counterMaxLength="20"
         app:errorEnabled="true"
+        app:layout_constraintCircleRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,10 +112,11 @@
         <EditText
             android:id="@+id/emailid"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="Email id"
-            android:textColor="@color/dark_color"
+            android:fontFamily="@font/sofiaproregular"
             android:paddingStart="20dp"
+            android:textColor="@color/dark_color"
             android:textColorHint="@color/dark_color" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -97,13 +127,19 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
         android:textColorHint="@color/dark_color"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
         app:boxStrokeColor="@color/dark_color"
-        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
         app:errorEnabled="true"
+        app:layout_constraintCircleRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,10 +148,13 @@
         <EditText
             android:id="@+id/Mobileno"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="Mobile Number"
-            android:textColor="@color/dark_color"
+            android:inputType="number"
+            android:fontFamily="@font/sofiaproregular"
+
             android:paddingStart="20dp"
+            android:textColor="@color/dark_color"
             android:textColorHint="@color/dark_color" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -126,13 +165,18 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
         android:textColorHint="@color/dark_color"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
         app:boxStrokeColor="@color/dark_color"
         app:counterMaxLength="20"
         app:errorEnabled="true"
+        app:layout_constraintCircleRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,8 +185,10 @@
         <EditText
             android:id="@+id/college"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="College/School"
+            android:fontFamily="@font/sofiaproregular"
+
             android:paddingStart="20dp"
             android:textColor="@color/dark_color"
             android:textColorHint="@color/dark_color" />
@@ -155,12 +201,18 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
         android:textColorHint="@color/dark_color"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
         app:boxStrokeColor="@color/dark_color"
-        app:counterMaxLength="20"
+
         app:errorEnabled="true"
+        app:layout_constraintCircleRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,11 +222,13 @@
         <EditText
             android:id="@+id/Password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="Password"
-            android:textColor="@color/dark_color"
             android:inputType="textPassword"
             android:paddingStart="20dp"
+            android:fontFamily="@font/sofiaproregular"
+
+            android:textColor="@color/dark_color"
             android:textColorHint="@color/dark_color" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -182,14 +236,13 @@
 
     <Button
         android:id="@+id/signup_btn"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/blue_btn_round"
         android:fontFamily="@font/sofiaproregular"
-        android:text="Sign up"
+        android:text="Sign Up"
+        android:textAllCaps="false"
         android:textColor="#FFF"
         android:textSize="15dp"
         android:textStyle="bold"

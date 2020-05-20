@@ -11,6 +11,8 @@
 
     <color name="liteYellow">#FEDD55</color>
     <color name="dark_color">#023466</color>
+    <color name="dark_color_description">#A3B2C1</color>
+
     <color name="blackText">#3E2D02</color>
     <color name="nonActiveIconcolor">#A2A2A2</color>
     <color name="viewpaggertext">#9FA5BB</color>
